@@ -2,7 +2,7 @@ UMI MVX Icon Theme
 ==================
 
 The best of **M ~ Moka**, **V ~ Vivacious** and **X ~ X** icons harmony.
-The UMI MVX Icon theme use icons/elements of 
+UMI MVX Icon theme use icons/elements of 
 [Vivacious](http://www.ravefinity.com/p/vivacious-colors-gtk-icon-theme.html), 
 [Faenza](https://tiheum.deviantart.com/art/Faenza-Icons-173323228), 
 [Moka/Faba](https://github.com/moka-project/moka-icon-theme), 
@@ -12,7 +12,7 @@ The UMI MVX Icon theme use icons/elements of
 [Mbuntu-Y Icons](https://launchpad.net/~noobslab/+archive/ubuntu/themes/+build/7128035).
 
 
-UMI MVX Icon Theme (the icon assets and sources) are licensed under a [Creative Commons Attribution-ShareAlike 4.0](http://creativecommons.org/licenses/by-sa/4.0/legalcode) license.
+This Icon Theme (the icon assets and sources) are licensed under a [Creative Commons Attribution-ShareAlike 4.0](http://creativecommons.org/licenses/by-sa/4.0/legalcode) license.
 
 Any bundled software is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3, or (at your option) any later version.
 
