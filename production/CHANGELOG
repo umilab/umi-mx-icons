@@ -1,0 +1,11 @@
+
+#CHANGES
+--------
+-using of osX-yosemite places and system files manager like icons
+-adding of more icons according to UMI design style 
+-modification of some icons according to UMI design style
+-"mimetypes icons" are now only in scalable format and in unique directory
+
+#BUG FIXED
+-----------
+-remove "text-x-preview" icon because of its priority when have to show icons like "text-css", "text-html",  etc. (mimetypes).
