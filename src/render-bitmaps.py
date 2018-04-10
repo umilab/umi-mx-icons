@@ -24,13 +24,15 @@ import argparse
 
 INKSCAPE = '/usr/bin/inkscape'
 OPTIPNG = '/usr/bin/optipng'
-MAINDIR = '../Moka'
+MAINDIR = '../production'
+SUBDIRS = ('actions', 'animations', 'apps', 'categories', 'devices', 'emblems', 'mimetypes', 'places', 'status', 'stock')
 SOURCES = ('#', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'web', 'X', 'Y', 'Z')
 
 # the resolution that non-hi-dpi icons are rendered at (may be 90 or 96 depending on your inkscape build)
 DPI_1_TO_1 = 96
 # DPI multipliers to render at
-DPIS = [1, 2]
+# can use [1, 2] value for dpi scale factor up to two
+DPIS = [1] 
 
 inkscape_process = None
 
@@ -149,15 +151,17 @@ def main(args, SRC):
                 for rect in self.rects:
                     for dpi_factor in DPIS:
                         width = rect['width']
-                        height = rect['height']
+                        # height = rect['height']
                         id = rect['id']
                         dpi = DPI_1_TO_1 * dpi_factor
 
-                        size_str = "%sx%s" % (width, height)
+                        # @TODO consider to use "width x height" instead of "width" for icon folder name by size
+                        # size_str = "%sx%s" % (width, height)
+                        size_str = "%s" % width
                         if dpi_factor != 1:
                             size_str += "@%sx" % dpi_factor
 
-                        dir = os.path.join(MAINDIR, size_str, self.context)
+                        dir = os.path.join(MAINDIR, self.context, size_str)
                         outfile = os.path.join(dir, self.icon_name+'.png')
                         if not os.path.exists(dir):
                             os.makedirs(dir)
@@ -212,6 +216,7 @@ parser.add_argument('filter', type=str, nargs='?', metavar='FILTER',
 
 args = parser.parse_args()
 
-for source in SOURCES:
-    SRC = os.path.join('.', source)
-    main(args, SRC)
+for subdir in SUBDIRS:
+    for source in SOURCES:
+        SRC = os.path.join('.', subdir, source)
+        main(args, SRC)
