@@ -158,6 +158,7 @@ def main(args, SRC):
                         # @TODO consider to use "width x height" instead of "width" for icon folder name by size
                         # size_str = "%sx%s" % (width, height)
                         size_str = "%s" % width
+                        # @TODO generate icons DPI factor x2
                         if dpi_factor != 1:
                             size_str += "@%sx" % dpi_factor
 
