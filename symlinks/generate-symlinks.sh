@@ -24,8 +24,8 @@ THEME="production"
 # echo $DIR
 
 # Icon sizes and contexts
-CONTEXTS=("actions" "apps" "categories" "devices" "emblems" "places" "status" "web")
-SIZES=("8x8" "16x16" "22x22" "24x24" "32x32" "48x48" "64x64" "96x96" "256x256" "8x8@2x" "16x16@2x" "22x22@2x" "24x24@2x" "32x32@2x" "48x48@2x" "64x64@2x" "96x96@2x" "256x256@2x")
+CONTEXTS=("actions" "apps" "categories" "devices" "emblems" "places" "status" "stock" "web")
+SIZES=("8" "16" "22" "24" "32" "48" "64" "96" "256" "8@2x" "16@2x" "22@2x" "24@2x" "32@2x" "48@2x" "64@2x" "96@2x" "256@2x" "scalable")
 
 # Fullcolor icons
 echo "Generating links for bitmap icons..."
