@@ -16,6 +16,7 @@
 #
 #
 # Thanks to the GNOME icon developers for the original version of this script
+
 import os
 import sys
 import xml.sax
@@ -161,6 +162,7 @@ def main(args, SRC):
                         if dpi_factor != 1:
                             size_str += "@%sx" % dpi_factor
 
+                        # @TODO also generate directory for "scalable" icons in svg format.
                         dir = os.path.join(MAINDIR, self.context, size_str)
                         outfile = os.path.join(dir, self.icon_name+'.png')
                         if not os.path.exists(dir):
