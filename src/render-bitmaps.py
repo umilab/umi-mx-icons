@@ -188,15 +188,16 @@ def main(args, SRC):
     if not args.svg:
         if not os.path.exists(MAINDIR):
             os.mkdir(MAINDIR)
-        print ('')
-        print ('Rendering from SVGs in', SRC)
-        print ('')
-        for file in os.listdir(SRC):
-            if file[-4:] == '.svg':
-                file = os.path.join(SRC, file)
-                handler = ContentHandler(file)
-                xml.sax.parse(open(file), handler)
-        print ('')
+        if os.path.exists(SRC):
+            print ('')
+            print ('Rendering from SVGs in', SRC)
+            print ('')
+            for file in os.listdir(SRC):
+                if file[-4:] == '.svg':
+                    file = os.path.join(SRC, file)
+                    handler = ContentHandler(file)
+                    xml.sax.parse(open(file), handler)
+            print ('')
     else:
         file = os.path.join(SRC, args.svg + '.svg')
 
