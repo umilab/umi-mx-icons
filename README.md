@@ -88,3 +88,8 @@ You can file an icon request as a [GitHub issue](https://github.com/umilinux/umi
 * A short description of the application or software that you are requesting an icon for.
 
 Note: some software ships hardcoded icons, meaning when you install icons are not placed in the system-wide directory `/usr/share/icons` which makes them unthemeable.
+
+Contributing
+------------
+
+Contributions are obviously welcome! If you would like to contribute to this project, please have [read this](/CONTRIBUTING.md) regarding contributions.
