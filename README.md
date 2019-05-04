@@ -56,3 +56,35 @@ You can build and install the theme from source or run the included install scri
     bash autogen.sh
     make
     sudo make install
+
+After which you should be able to pick UMI MVX as your icon or cursor theme in GNOME Tweak tool, or you can set either from a terminal with:
+
+```bash
+# set the icon theme
+gsettings set org.gnome.desktop.interface icon-theme "umi-mvx"
+```
+
+Uninstalling UMI MVX
+--------------------
+
+To uninstall UMI MVX, simply run the following. (If you installed it without superuser priveleges just omit the  `sudo`.)
+
+    sudo make uninstall
+
+Once uninstalled you can reset your icon and cursor theme to the default setting by running the following.
+
+```bash
+# reset icon theme to default
+gsettings reset org.gnome.desktop.interface icon-theme
+```
+
+Missing Icons & Requests
+------------------------
+
+You can file an icon request as a [GitHub issue](https://github.com/umilinux/umi-mvx-icons/issues/new). Filing an icon request or reporting a missing icon, please take care in providing the following useful information:
+
+* A screenshot of your issue or an image of the original icon you are requesting to be themed
+* The file name for the missing icon or the requested icon, for example `gimp.png` or `system-shutdown.svg`
+* A short description of the application or software that you are requesting an icon for.
+
+Note: some software ships hardcoded icons, meaning when you install icons are not placed in the system-wide directory `/usr/share/icons` which makes them unthemeable.
