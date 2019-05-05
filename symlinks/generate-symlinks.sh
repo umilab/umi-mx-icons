@@ -38,7 +38,7 @@ do
 	do
 		LIST="$DIR/bitmaps/$CONTEXT.list"
 		# Check if directory exists
-		if [ -d "$DIR/../$THEME/$CONTEXT/$SIZE" ]; then
+		if [[ -f "$LIST" && -d "$DIR/../$THEME/$CONTEXT/$SIZE" ]]; then
 			cd $DIR/../$THEME/$CONTEXT/$SIZE
 			while read line;
 			do
