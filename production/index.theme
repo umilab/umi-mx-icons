@@ -1,6 +1,6 @@
 [Icon Theme]
 Name=umi-mvx-icons
-Inherits=umi-osx-icons,gnome,ubuntu-mono-dark,hicolor
+Inherits=umi-osx-icons,Faba,gnome,ubuntu-mono-dark,hicolor
 Comment=The best of M ~ Moka, V ~ Vivacious and X ~ X icons harmony.
 
 # KDE Specifics
