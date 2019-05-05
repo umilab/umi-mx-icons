@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   height="48"
+   viewBox="0 0 48 48"
+   width="48">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12" />
+  <path
+     id="path2"
+     fill="#dcdcdc"
+     d="m8 1c-1.0286 0-2 0.9714-2 2v42c0 0.97143 1.0286 2 2 2h32c0.97143 0 2-1.0286 2-2v-31l-13-13z" />
+  <path
+     id="path4"
+     fill-opacity=".196"
+     d="m29 12 0.062 0.062 0.157-0.062h-0.219zm2 2 11 11v-11h-11z" />
+  <path
+     id="path6"
+     fill-opacity=".392"
+     d="m29 1 13 13h-11c-0.97143 0-2-1.0286-2-2v-11z"
+     fill="#fff" />
+  <path
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.89272952;marker:none;enable-background:new"
+     d="m 23.678859,17.258005 c -5.892036,0 -12.456735,1.989617 -12.456735,4.844287 0,2.854666 6.564699,4.844285 12.456735,4.844285 5.892035,0 12.456734,-1.989619 12.456734,-4.844285 0,-2.85467 -6.564699,-4.844287 -12.456734,-4.844287 z m -12.456735,7.569197 v 2.811415 c 0,2.854669 6.564699,4.844284 12.456735,4.844284 5.892035,0 12.456734,-1.989615 12.456734,-4.844284 v -2.811415 c -2.215056,2.082946 -6.892698,3.503457 -12.456734,3.503457 -5.564037,0 -10.241678,-1.420511 -12.456735,-3.503457 z m 0,5.536325 v 2.811417 c 0,2.854667 6.564699,4.844286 12.456735,4.844286 5.892035,0 12.456734,-1.989619 12.456734,-4.844286 v -2.811417 c -2.215056,2.082948 -6.892698,3.503457 -12.456734,3.503457 -5.564037,0 -10.241678,-1.420509 -12.456735,-3.503457 z m 0,5.536328 v 2.811414 c 0,2.854669 6.564699,4.844286 12.456735,4.844286 5.892035,0 12.456734,-1.989617 12.456734,-4.844286 v -2.811414 c -2.215056,2.082944 -6.892698,3.503456 -12.456734,3.503456 -5.564037,0 -10.241678,-1.420512 -12.456735,-3.503456 z"
+     id="path3084" />
+</svg>
