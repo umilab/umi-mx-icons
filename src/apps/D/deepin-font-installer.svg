@@ -32,9 +32,9 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="218.67679"
+     inkscape:cx="206.30242"
      inkscape:cy="163.66441"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
@@ -706,7 +706,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
@@ -1254,7 +1254,7 @@
         </g>
       </g>
       <g
-         transform="matrix(0.28310502,0,0,0.28310502,280.23288,128.83562)"
+         transform="matrix(0.27397259,0,0,0.2785388,280.54795,129.04795)"
          style="display:inline;enable-background:new"
          id="g59280-0-9">
         <path
