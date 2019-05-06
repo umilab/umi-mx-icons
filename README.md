@@ -54,8 +54,8 @@ Building/Installing UMI MVX
 You can build and install the theme from source or run the included install script.
 
     bash autogen.sh
-    make
     sudo make install
+    make clean
 
 After which you should be able to pick UMI MVX as your icon or cursor theme in GNOME Tweak tool, or you can set either from a terminal with:
 
