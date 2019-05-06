@@ -14,7 +14,7 @@
 #
 
 Name:           umi-mvx-icons
-Version:        3.0.0
+Version:        3.1.0
 Release:        4
 License:        CC-BY-SA-4.0
 Summary:        The best of M ~ Moka, V ~ Vivacious and X ~ X icons harmony. 
