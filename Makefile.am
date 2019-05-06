@@ -13,3 +13,8 @@ install-data-hook:
 
 uninstall-hook:
 	test -e $(DESTDIR)/usr/share/icons/umi-mvx && rm -rfv $(DESTDIR)/usr/share/icons/umi-mvx
+
+clean-local:
+	rm -rf autom4te.cache
+	rm aclocal.m4 configure config.log config.status install-sh Makefile Makefile.in missing 
+
