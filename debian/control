@@ -1,0 +1,17 @@
+Source: umi-mx-icons-theme
+Section: x11
+Priority: optional
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Standards-Version: 3.9.8
+Build-Depends:
+ debhelper (>= 9),
+ gtk-update-icon-cache,
+ x11-apps
+
+Package: umi-mx-icons-theme
+Architecture: all
+Depends: papirus-icon-theme
+Conflicts: deepin-cursor-theme
+Description: Deepin Icons
+ This package is DeepinIconTheme 
+
