@@ -1,7 +1,7 @@
 #
 # Spec file for package UMI MX Icons theme
 #
-# Copyright (c) 2016 - 2018 tnga <devtnga@gmail.com>
+# Copyright (c) 2016 - 2019 tnga <devtnga@gmail.com>
 #
 # All modifications and additions to the file contributed by third parties
 # remain the property of their copyright owners, unless otherwise agreed
@@ -14,7 +14,7 @@
 #
 
 Name:           umi-mx-icons
-Version:        3.3.0
+Version:        3.4.0
 Release:        4
 License:        CC-BY-SA-4.0
 Summary:        The best of M ~ Moka, V ~ Vivacious and X ~ X icons harmony. 
