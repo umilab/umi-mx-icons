@@ -9,10 +9,10 @@ themedir = $(datadir)/icons
 
 install-data-hook:
 	$(MKDIR_P) $(DESTDIR)/usr/share/icons
-	cp -R production $(DESTDIR)/usr/share/icons/umi-mvx
+	cp -R production $(DESTDIR)/usr/share/icons/umi-mx
 
 uninstall-hook:
-	test -e $(DESTDIR)/usr/share/icons/umi-mvx && rm -rfv $(DESTDIR)/usr/share/icons/umi-mvx
+	test -e $(DESTDIR)/usr/share/icons/umi-mx && rm -rfv $(DESTDIR)/usr/share/icons/umi-mx
 
 clean-local:
 	rm -rf autom4te.cache

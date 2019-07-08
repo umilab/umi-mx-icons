@@ -1,8 +1,8 @@
-UMI MVX Icon Theme
+UMI MX Icon Theme
 ==================
 
 The best of **M ~ Moka**, **V ~ Vivacious** and **X ~ X** icons harmony.
-UMI MVX Icons theme use icons/elements of
+UMI MX Icons theme use icons/elements of
 [Vivacious](http://www.ravefinity.com/p/vivacious-colors-gtk-icon-theme.html),
 [Faenza](https://tiheum.deviantart.com/art/Faenza-Icons-173323228),
 [Moka/Faba](https://github.com/moka-project/moka-icon-theme),
@@ -18,9 +18,9 @@ Any bundled software is free software; you can redistribute it and/or modify it 
 Getting the Source
 ------------------
 
-The official source for UMI MVX Icons Theme can be found [here](https://github.com/umilinux/umi-mvx-icons). You can clone the latest version from the git repository:
+The official source for UMI MX Icons Theme can be found [here](https://github.com/umilinux/umi-mx-icons). You can clone the latest version from the git repository:
 
-    git clone https://github.com/umilinux/umi-mvx-icons.git
+    git clone https://github.com/umilinux/umi-mx-icons.git
 
 Using the Source
 ----------------
@@ -41,14 +41,14 @@ If it's throwing an error, the script may not be executable, try:
 This script will look in the source directories `/src/*` and render the respective icons (provided there are changes).
 
 Afterwards, the rendered icons need to be installed.
-To do this, you may just copy the `production` directory to `~/.local/share/icons/umi-mvx`.
+To do this, you may just copy the `production` directory to `~/.local/share/icons/umi-mx`.
 However, if you, lets say, added an icon named `web-example` and want to install only this particular icon, then you should run
 
     find -name 'web-example.png' -exec cp --parents {} ~/.local/share/icons/ \;
 
 from inside of this repository's root directory.
 
-Building/Installing UMI MVX
+Building/Installing UMI MX
 ---------------------------
 
 You can build and install the theme from source or run the included install script.
@@ -57,17 +57,17 @@ You can build and install the theme from source or run the included install scri
     sudo make install
     make clean
 
-After which you should be able to pick UMI MVX as your icon or cursor theme in GNOME Tweak tool, or you can set either from a terminal with:
+After which you should be able to pick UMI MX as your icon or cursor theme in GNOME Tweak tool, or you can set either from a terminal with:
 
 ```bash
 # set the icon theme
-gsettings set org.gnome.desktop.interface icon-theme "umi-mvx"
+gsettings set org.gnome.desktop.interface icon-theme "umi-mx"
 ```
 
-Uninstalling UMI MVX
+Uninstalling UMI MX
 --------------------
 
-To uninstall UMI MVX, simply run the following. (If you installed it without superuser priveleges just omit the  `sudo`.)
+To uninstall UMI MX, simply run the following. (If you installed it without superuser priveleges just omit the  `sudo`.)
 
     sudo make uninstall
 
@@ -81,7 +81,7 @@ gsettings reset org.gnome.desktop.interface icon-theme
 Missing Icons & Requests
 ------------------------
 
-You can file an icon request as a [GitHub issue](https://github.com/umilinux/umi-mvx-icons/issues/new). Filing an icon request or reporting a missing icon, please take care in providing the following useful information:
+You can file an icon request as a [GitHub issue](https://github.com/umilinux/umi-mx-icons/issues/new). Filing an icon request or reporting a missing icon, please take care in providing the following useful information:
 
 * A screenshot of your issue or an image of the original icon you are requesting to be themed
 * The file name for the missing icon or the requested icon, for example `gimp.png` or `system-shutdown.svg`

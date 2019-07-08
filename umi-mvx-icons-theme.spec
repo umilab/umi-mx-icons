@@ -1,5 +1,5 @@
 #
-# Spec file for package UMI MVX Icons theme
+# Spec file for package UMI MX Icons theme
 #
 # Copyright (c) 2016 - 2018 tnga <devtnga@gmail.com>
 #
@@ -13,12 +13,12 @@
 # published by the Open Source Initiative.
 #
 
-Name:           umi-mvx-icons
+Name:           umi-mx-icons
 Version:        3.3.0
 Release:        4
 License:        CC-BY-SA-4.0
 Summary:        The best of M ~ Moka, V ~ Vivacious and X ~ X icons harmony. 
-Url:            https://github.com/umilinux/umi-mvx-icons
+Url:            https://github.com/umilinux/umi-mx-icons
 Group:          System/GUI/Other
 Source:         %{name}-%{version}.tar.xz
 BuildRequires:  automake
@@ -29,7 +29,7 @@ BuildArch:      noarch
 Requires:		faba-icon-theme
 
 %description
-UMI MVX Icons theme use icons/elements of Vivacious, Faenza, Moka/Faba, Elementary, KDE Breeze, Numix & Mbuntu-Y Icons.
+UMI MX Icons theme use icons/elements of Vivacious, Faenza, Moka/Faba, Elementary, KDE Breeze, Numix & Mbuntu-Y Icons.
 
 %prep
 %setup -q
@@ -43,14 +43,14 @@ make %{?_smp_mflags}
 
 %install
 make install DESTDIR=%{buildroot} %{?_smp_mflags}
-rm -f %{buildroot}%{_datadir}/icons/umi-mvx/AUTHORS
-%fdupes %{buildroot}%{_datadir}/icons/umi-mvx
+rm -f %{buildroot}%{_datadir}/icons/umi-mx/AUTHORS
+%fdupes %{buildroot}%{_datadir}/icons/umi-mx
 
 %post
-%icon_theme_cache_post umi-mvx
+%icon_theme_cache_post umi-mx
 
 %files
 %defattr(-,root,root)
 %doc COPYING LICENSE_* README.md
-%{_datadir}/icons/umi-mvx
-%ghost %{_datadir}/icons/umi-mvx/icon-theme.cache
+%{_datadir}/icons/umi-mx
+%ghost %{_datadir}/icons/umi-mx/icon-theme.cache
