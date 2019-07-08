@@ -1,4 +1,4 @@
-Source: umi-mx-icons-theme
+Source: umi-mx-icon-theme
 Section: x11
 Priority: optional
 Maintainer: Deepin Packages Builder <packages@deepin.com>
@@ -8,10 +8,7 @@ Build-Depends:
  gtk-update-icon-cache,
  x11-apps
 
-Package: umi-mx-icons-theme
+Package: umi-mx-icon-theme
 Architecture: all
 Depends: papirus-icon-theme
-Conflicts: deepin-cursor-theme
-Description: Deepin Icons
- This package is DeepinIconTheme 
-
+Description: UMI Moon X design Icons
