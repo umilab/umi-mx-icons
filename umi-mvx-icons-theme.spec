@@ -13,7 +13,7 @@
 # published by the Open Source Initiative.
 #
 
-Name:           umi-mx-icons
+Name:           umi-mx-icon-theme
 Version:        3.4.0
 Release:        4
 License:        CC-BY-SA-4.0
