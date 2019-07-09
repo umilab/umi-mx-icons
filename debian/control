@@ -6,7 +6,9 @@ Standards-Version: 3.9.8
 Build-Depends:
  debhelper (>= 9),
  gtk-update-icon-cache,
- x11-apps
+ x11-apps,
+ inkscape,
+ python3
 
 Package: umi-mx-icon-theme
 Architecture: all
