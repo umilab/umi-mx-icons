@@ -1,7 +1,7 @@
 Source: umi-mx-icon-theme
 Section: x11
 Priority: optional
-Maintainer: Deepin Packages Builder <packages@deepin.com>
+Maintainer: UMI Packages Builder <packages@umilab.org>
 Standards-Version: 3.9.8
 Build-Depends:
  debhelper (>= 9),
