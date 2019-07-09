@@ -12,5 +12,6 @@ Build-Depends:
 
 Package: umi-mx-icon-theme
 Architecture: all
-Depends: papirus-icon-theme
+Suggests: umi-mx-gtk-theme
+Depends: Depends: ${misc:Depends}
 Description: UMI Moon X design Icons
